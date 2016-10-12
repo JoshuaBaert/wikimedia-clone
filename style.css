@@ -4,4 +4,52 @@ body {
 	font-style: normal;
 	font-size: 13px;
 	line-height: 1.5;
+	padding-left: 12vw;
+	padding-right: 12vw;
+}
+header {
+	font-size: 150%;
+	text-align: justify;
+}
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+footer {
+	text-align: center;
+	width: 70%;
+	margin: 10px auto;
+	border-top: 1px solid #aaa;
+}
+.images {
+	height: 175px;
+	min-width: 150px;
+	width: 24.75%;
+	max-width: 300px;
+	line-height: 175px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.width {
+	width: 135px;
+}
+.lsize{
+	width: 25%;
+}
+#welcome {
+	text-align: right;
+}
+#good {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#bye {
+	display: inline;
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
